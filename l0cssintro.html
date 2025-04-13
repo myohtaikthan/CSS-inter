@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS into</title>
+         <style type="text/css">
+
+            .div1,.div2,.div3{
+                width: 200px;
+                height: 100px;
+                background-color: green;
+                color: #fff;
+                          /* b    s    c  */
+                border: 20px solid red;
+
+                outline:10px solid blue;
+
+                padding: 20px;
+
+            }
+           
+            .div2{
+                box-sizing: border-box;
+
+                /* box အတွင်ဘက်ထဲမှာ ကန်စေချင်  */
+            }
+              
+
+
+              /* box-sizing:content Default  */
+            .div3{
+                box-sizing: content-box;
+                 /* box အပြင်ကန်  */
+            }
+
+
+
+            .div4{
+                width: 200px;
+                height: 100px;
+                background-color: skyblue;
+                color: #fff;
+
+                margin-left: 20px;
+
+            }
+            
+
+        </style>
+    </head>
+    <body>
+       
+
+        <h1>Box sizing / Border Box</h1>
+
+        <div class="div1">
+            This Div1 
+        </div>
+        <hr/>
+
+        <div class="div2">
+            This Div2
+        </div>
+        <hr/>
+        <div class="div3">
+            This Div3
+        </div>
+        <hr/>
+        <div class="div4">
+            This Div4
+        </div>
+        <hr/>
+    </body>
+</html>

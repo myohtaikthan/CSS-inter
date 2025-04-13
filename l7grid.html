@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid</title>
+        <style type="text/css">
+
+            body{
+
+                height: 100vh;
+                display: flex;
+
+                 /* Hozenal  */
+                justify-content: center;
+
+                /* vt  */
+                align-items: center;
+
+            }
+
+            .container{
+
+                /* ဘေးတိုက်ပြေစချင်  */
+                width: 1200px;
+                background-color: gray;
+                /* display: flex; */
+                      /* element တစ်ခုထဲမှ အလုပ် လုပ်တာ  display:grid  မပါမနေရ*/
+             display: grid;
+
+
+               /* Fractional Unit (fr)  ခွဲစိတ်တာ full ယူ   */
+
+               /* grid-template-columns: 1fr; */
+               /* grid-template-columns: 1fr 1fr; */
+               /* grid-template-columns: 1fr 1fr 1fr; */
+               /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+
+
+               
+
+
+              
+                            
+
+
+
+
+            }
+
+
+                /* .container အောက်က child all  */
+            .container > *{
+                /* width: 200px; */
+                height: 100px;
+                background-color: gray;
+
+            }
+
+
+            .container div:nth-of-type(odd){
+                background-color: steelblue;
+            }
+
+            .container div:nth-of-type(even){
+                background-color: skyblue;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="div1">This is Div 1</div>
+            <div class="div2">This is Div 2</div>
+            <div class="div3">This is Div 3</div>
+            <div class="div4">This is Div 4</div>
+            <div class="div5">This is Div 5</div>
+            <div class="div6">This is Div 6</div>
+            <div class="div7">This is Div 7</div>
+            <div class="div8">This is Div8</div>
+            <div class="div9">This is Div 9</div>
+            <div class="div10">This is Div 10</div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flex Direction</title>
+        <style type="text/css">
+
+            body{
+
+                height: 100vh;
+                display: flex;
+
+                 /* Hozenal  */
+                justify-content: center;
+
+                /* vt  */
+                align-items: center;
+
+            }
+
+            .container{
+
+                /* ဘေးတိုက်ပြေစချင်  */
+                width: 1200px;
+               height: 800px;
+                background-color: gray;
+
+
+                   /* ဘေးတိုက်ပြခငျင်  */
+                   /* display: flex; */
+
+                   /* justify-content: start; */
+                   /* justify-content: center;  */
+                   /* justify-content: end;  */
+
+                   /* vertical center ကျချင်  */
+                     /* align-items: start; */
+                   /* align-items: center;  */
+                   /* align-items: end; */
+
+
+                   /* display: flex; */
+
+                      /* element ခြားစေချင်  အပြည့်ကန်  */
+                   /* justify-content: space-between; */
+
+                               /* အချိုးကျ ကန်ထုတ်  */
+                     /* justify-content: space-around; */
+
+                     
+
+                     /* flex-direction: ; မူလအတိုင်ဖစ်စေချင်ရင် just-content:center / align-item-center ပြောင်သွားမယ် */
+                     /* display: flex;
+                     flex-direction: column;
+                      
+                      justify-content: center;
+                      align-items: center; */
+
+
+                      /* display: flex; */
+                      /* flex-direction: column; */
+                      /* justify-content: space-between; */
+                      /* justify-content: space-around; */
+
+
+                      /* display: flex;
+
+                      flex-direction: row;
+                      justify-content: center;
+                      align-items: center; */
+
+
+                      /* display: flex; */
+                      /* flex-direction: column-reverse; */
+                      /* flex-direction: row-reverse; */
+
+
+
+                      display: flex;
+                      flex-direction: column ;
+
+                      /* မဆန့်ရင် နောက်တစ်ခုပြစေချင်  */
+                      flex-wrap: wrap;
+
+
+
+
+
+
+
+
+
+
+                /* မဆန်အောက်ဆင်းစေချင်  */
+                /* flex-wrap: wrap; */
+                      /* element တစ်ခုထဲမှ အလုပ် လုပ်တာ  display:grid  မပါမနေရ*/
+          
+            
+
+              
+
+
+
+
+            }
+
+
+                /* .container အောက်က child all  */
+            .container > *{
+                width: 300px;  
+                height: 100px;
+
+            
+          
+
+            }
+
+
+            .container div:nth-of-type(odd){
+                background-color: steelblue;
+            }
+
+            .container div:nth-of-type(even){
+                background-color: skyblue;
+            }
+
+            .div1{
+
+              
+
+            
+            }
+
+            .div2{
+
+            
+
+               
+                
+            }
+
+            .div3{
+                
+        
+        
+                
+            }
+
+            .div4{
+
+        
+
+            
+                
+            }
+
+            .div5{
+
+            
+             
+              
+                
+            }
+
+
+            .div6{
+
+          
+               
+
+     
+                
+            }
+            .div7{
+
+      
+
+
+       
+               
+            }
+
+            .div8{
+
+           
+             
+
+            
+                
+            }
+
+            .div9{
+
+
+
+              
+      
+                
+            }
+
+            .div10{
+
+           
+
+
+           
+              
+                
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="div1">This is Div 1</div>
+            <div class="div2">This is Div 2</div>
+            <div class="div3">This is Div 3</div>
+            <div class="div4">This is Div 4</div>
+            <div class="div5">This is Div 5</div>
+            <div class="div6">This is Div 6</div>
+            <div class="div7">This is Div 7</div>
+            <div class="div8">This is Div8</div>
+            <div class="div9">This is Div 9</div>
+            <div class="div10">This is Div 10</div>
+        </div>
+    </body>
+</html>
